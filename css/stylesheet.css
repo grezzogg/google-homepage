@@ -1,0 +1,15 @@
+/*Navigation bar*/
+.nav {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    width: 60px;
+}
