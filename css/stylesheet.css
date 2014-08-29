@@ -1,15 +1,16 @@
 /*Navigation bar*/
+.nav-container{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
 .nav {
     list-style-type:none;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 .nav li {
-    float: left;
-}
-
-.nav li a {
-    display: block;
-    width: 60px;
+    display: inline-block;
 }
