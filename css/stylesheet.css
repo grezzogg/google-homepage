@@ -19,3 +19,14 @@
 	margin: 0px;
 	padding: 0px;
 }
+
+.sign-button {
+	background-color: #4285f4;
+	border-radius: 3px;
+}
+
+.sign-button a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
