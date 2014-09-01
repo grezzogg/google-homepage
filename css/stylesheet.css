@@ -2,15 +2,20 @@
 .nav-container{
 	margin: 0px;
 	padding: 0px;
-	float: left;
 }
 
 .nav {
     list-style-type:none;
     margin: 0;
     padding: 0;
+	float: right;
 }
 
 .nav li {
     display: inline-block;
+}
+.float-clear {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
 }
