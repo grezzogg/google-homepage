@@ -1,3 +1,8 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
 /*Navigation bar*/
 .nav-container{
 	margin: 0px;
@@ -9,6 +14,7 @@
     margin: 0;
     padding: 0;
 	float: right;
+	text-align: center;
 }
 
 .nav li {
@@ -23,10 +29,20 @@
 .sign-button {
 	background-color: #4285f4;
 	border-radius: 3px;
+	padding: 5px 12px;
 }
 
 .sign-button a {
 	color: #fff;
 	text-decoration: none;
 	font-weight: bold;
+	font-family: Arial, sans-serif;
+	font-size: 0.8em;
+}
+
+.apps-button {
+	height: 30px;
+	width: 30px;
+	background-image: url('../img/v1_2e543709.png');
+	background-position: -51px -452px;
 }
