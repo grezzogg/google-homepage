@@ -1,48 +1,75 @@
 * {
-	padding: 0px;
-	margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 /*Navigation bar*/
 .nav-container{
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 10px;
 }
 
 .nav {
-    list-style-type:none;
-    margin: 0;
-    padding: 0;
-	float: right;
-	text-align: center;
+  list-style-type:none;
+  float: right;
+  margin-right: 10px;
 }
 
 .nav li {
-    display: inline-block;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  border: 0px;
 }
 .float-clear {
-	clear: both;
-	margin: 0px;
-	padding: 0px;
+  clear: both;
+  margin: 0px;
+  padding: 0px;
 }
 
 .sign-button {
-	background-color: #4285f4;
-	border-radius: 3px;
-	padding: 5px 12px;
+  display: inline-block;
+  background-color: #4285f4;
+  border-radius: 3px;
+  padding: 5px 12px;
 }
 
 .sign-button a {
-	color: #fff;
-	text-decoration: none;
-	font-weight: bold;
-	font-family: Arial, sans-serif;
-	font-size: 0.8em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 0.8em;
 }
 
 .apps-button {
-	height: 30px;
-	width: 30px;
-	background-image: url('../img/v1_2e543709.png');
-	background-position: -51px -452px;
+  height: 30px;
+  width: 30px;
+  background-image: url('../img/v1_2e543709.png');
+  display: block;
+  background-position: -51px -452px;
+}
+
+.apps-li {
+  height: 30px;
+  width: 30px;
+}
+
+li>a {
+  font-size: 0.8em;
+  font-family: arial, sans-serif;
+  color: #404040;
+  text-decoration: none;
+}
+
+.main-logo {
+  padding-top: 145px;
+  width: 100%;
+}
+
+.logo {
+  height: 95px;
+  width: 269px;
+  margin: 0 auto;
+  display: block;
 }
