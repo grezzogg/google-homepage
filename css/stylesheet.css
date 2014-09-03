@@ -73,3 +73,57 @@ li>a {
   margin: 0 auto;
   display: block;
 }
+
+.textbar-container {
+/*  margin: 0 auto;*/
+  display: block;
+  height: 30px;
+  margin: 0px auto;
+/*  vertical-align: middle;*/
+  width: 569px;
+  margin-top: 20px;
+}
+
+.mic-button {
+  display: block;
+  height: 24px;
+  width: 16px;
+  background-image: url(../img/descarga.gif);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  right: 0px;
+  margin-top: -12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input {
+  display: inline-block;
+  height: 30px;
+  float: right;
+  width: 535px;
+  border: 1px solid grey;
+  border-right: none;
+}
+
+.mic-container {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  float: right;
+  border: 1px solid grey;
+  border-left: none;
+}
+
+.search {
+  display: inline-block;
+  width: auto;
+}
+
+.search-buttons-container {
+  display: block;
+  width: 400px;
+  margin: 20px auto;
+}
