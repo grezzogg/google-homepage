@@ -99,7 +99,7 @@ li>a {
   margin-left: auto;
 }
 
-input {
+.textbar-container input {
   display: inline-block;
   height: 30px;
   float: right;
@@ -119,11 +119,17 @@ input {
 
 .search {
   display: inline-block;
-  width: auto;
+  padding: 3px;
+  margin-right: 10px;
+  font-family: arial,sans-serif;
+  color: #444;
+  font-weight: bold;
+  border: 1px, solid, rgba(0,0,0, 0.3);
 }
 
 .search-buttons-container {
   display: block;
-  width: 400px;
-  margin: 20px auto;
+  width: auto;
+  margin: 15px auto;
+  text-align: center;
 }
